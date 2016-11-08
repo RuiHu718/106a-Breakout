@@ -1,7 +1,7 @@
 /*
  * File: Breakout.java
  * -------------------
- * Name:
+ * Name: Rui Hu
  * Section Leader:
  * 
  * This file will eventually implement the game of Breakout.
