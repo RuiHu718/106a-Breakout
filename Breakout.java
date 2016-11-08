@@ -3,7 +3,7 @@
  * -------------------
  * Name: Rui Hu
  * Section Leader: myself
- * This is the first project of reasonable size
+ * This is the first project of reasonable size, good place to try
  * 
  * This file will eventually implement the game of Breakout.
  */
