@@ -4,7 +4,7 @@
  * Name: Rui Hu
  * Section Leader: myself
  * This is the first project of reasonable size, good place to try
- * 
+ * Why isn't the change being picked up by git?
  * This file will eventually implement the game of Breakout.
  */
 
