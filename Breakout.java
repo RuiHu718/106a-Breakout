@@ -79,7 +79,7 @@ public class Breakout extends GraphicsProgram {
 	int x = 0;
 	int y = 70;
 	while(i < NBRICKS_PER_ROW){
-	    grect = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+	    GRect grect = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
 	    grect.setColor(Color.RED);
 	    add(grect);
 	    //add(new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT));
