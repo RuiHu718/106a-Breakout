@@ -79,6 +79,7 @@ public class Breakout extends GraphicsProgram {
     	Color color = Color.RED;
     	
     	while(i < NBRICK_ROWS){
+    		System.out.println(i);
     		y = 70 + i*BRICK_HEIGHT;
     		if(i < 2) color = Color.RED;
     		else if(i < 4) color = Color.BLUE;
