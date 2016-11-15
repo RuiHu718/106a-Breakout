@@ -63,29 +63,28 @@ public class Breakout extends GraphicsProgram {
 /** Runs the Breakout program. */
     public void run() {
 	/* You fill this in, along with any subsidiary methods */
-	setUpGame();
+    	setUpGame();
     }
 
     private void setUpGame(){
-	setUpBricks();
+    	setUpBricks();
     }
 
     private void setUpBricks(){
-	setUpOneRow();
+    	setUpOneRow(70, Color.RED);
     }
 
-    private void setUpOneRow(){
-	int i = 0;
-	int x = 0;
-	int y = 70;
-	while(i < NBRICKS_PER_ROW){
-	    GRect grect = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-	    grect.setColor(Color.RED);
-	    grect.setFilled(true);
-	    add(grect);
-	    //add(new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT));
-	    x = x + BRICK_WIDTH + BRICK_SEP;
-	}
+    private void setUpOneRow(int y, Color color ){
+    	int i = 0;
+    	int x = 0;
+    	while(i < NBRICKS_PER_ROW){
+    		GRect grect = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+    		grect.setColor(Color.RED);
+    		grect.setFilled(true);
+    		add(grect);
+    		//add(new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT));
+    		x = x + BRICK_WIDTH + BRICK_SEP;
+    	}
     }
 
 }
