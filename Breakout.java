@@ -73,12 +73,12 @@ public class Breakout extends GraphicsProgram {
     private void setUpBricks(){
     	//setUpOneRow(70, Color.RED);
     	int i = 0;
-    	int j = 0;
     	int x = 0;
     	int y = 70;
     	Color color = Color.RED;
     	
     	while(i < NBRICK_ROWS){
+    		int j = 0;
     		System.out.println(i);
     		y = 70 + i*BRICK_HEIGHT;
     		if(i < 2) color = Color.RED;
@@ -97,7 +97,6 @@ public class Breakout extends GraphicsProgram {
         		x = x + BRICK_WIDTH + BRICK_SEP;
         		j++;
     		}   
-    		j = 0;
     		i++;
     	}  	
     }
