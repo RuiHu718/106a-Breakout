@@ -80,7 +80,7 @@ public class Breakout extends GraphicsProgram {
     	setUpOneRow(70+6*BRICK_HEIGHT, Color.RED);
     	setUpOneRow(70+7*BRICK_HEIGHT, Color.RED);
     	setUpOneRow(70+8*BRICK_HEIGHT, Color.RED);
-    	setUpOneRow(70+9*BRICK_HEIGHT, Color.RED);
+    	setUpOneRow(70+9*BRICK_HEIGHT, Color.GREEN);
     }
 
     private void setUpOneRow(int y, Color color ){
