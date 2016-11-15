@@ -83,7 +83,7 @@ public class Breakout extends GraphicsProgram {
     		y = 70 + i*(BRICK_HEIGHT+BRICK_SEP);
     		if(i < 2) color = Color.RED;
     		else if(i < 4) color = Color.BLUE;
-    		else if(i < 6) color = Color.YELLOW;
+    		else if(i < 6) color = Color.ORANGE;
     		else if(i < 8) color = Color.GREEN;
     		else if(i < 10) color = Color.CYAN;
     			
