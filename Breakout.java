@@ -84,6 +84,7 @@ public class Breakout extends GraphicsProgram {
     }
 
     private void setUpOneRow(int y, Color color ){
+    	System.out.println(y);
     	int i = 0;
     	int x = 0;
     	while(i < NBRICKS_PER_ROW){
