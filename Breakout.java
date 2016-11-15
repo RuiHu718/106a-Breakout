@@ -76,7 +76,7 @@ public class Breakout extends GraphicsProgram {
     	int j = 0;
     	int x = 0;
     	int y = 70;
-    	Color color;
+    	Color color = Color.RED;
     	
     	while(i < NBRICK_ROWS){
     		y = 70 + i*BRICK_HEIGHT;
@@ -94,11 +94,9 @@ public class Breakout extends GraphicsProgram {
         		//add(new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT));
         		x = x + BRICK_WIDTH + BRICK_SEP;
         		j++;
-    		}
-    		
+    		}   		
     		i++;
-    	}
-    	
+    	}  	
     }
 
     private void setUpOneRow(int y, Color color ){
